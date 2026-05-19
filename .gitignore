@@ -7,3 +7,5 @@ build/
 local.properties
 .idea/
 **/.idea/
+google-services.json
+**/google-services.json
