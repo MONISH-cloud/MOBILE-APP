@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.pgmanager.app.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_pgs"
+        android:name="com.pgmanager.app.ui.pg.PGListFragment"
+        android:label="@string/nav_pgs"
+        tools:layout="@layout/fragment_pg_list" />
+
+    <fragment
+        android:id="@+id/nav_rent"
+        android:name="com.pgmanager.app.ui.rent.RentDashboardFragment"
+        android:label="@string/nav_rent"
+        tools:layout="@layout/fragment_rent_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_tenants"
+        android:name="com.pgmanager.app.ui.tenant.TenantListFragment"
+        android:label="@string/nav_tenants"
+        tools:layout="@layout/fragment_tenant_list" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.pgmanager.app.ui.reports.ReportsFragment"
+        android:label="@string/nav_reports"
+        tools:layout="@layout/fragment_reports" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.pgmanager.app.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

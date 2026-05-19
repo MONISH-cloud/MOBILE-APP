@@ -1,0 +1,31 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Allow users to read and write their own profile
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // PG property rules
+    match /pgs/{pgId} {
+      allow read, write: if request.auth != null && (resource == null || resource.data.ownerId == request.auth.uid);
+      
+      // Sub-collections: Rooms and Expenses
+      match /{allSubcollections=**} {
+        allow read, write: if request.auth != null;
+      }
+    }
+    
+    // Global Tenants collection
+    match /tenants/{tenantId} {
+      allow read, write: if request.auth != null;
+    }
+    
+    // Rent Records collection
+    match /rentRecords/{recordId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

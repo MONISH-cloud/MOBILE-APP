@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Purple (Staazy) -->
+    <color name="primary">#8338EC</color>
+    <color name="primary_dark">#5B21B6</color>
+    <color name="primary_light">#A855F7</color>
+    <color name="primary_variant">#7C3AED</color>
+    <color name="primary_ghost">#1A8338EC</color>
+
+    <!-- Secondary Blue -->
+    <color name="secondary_blue">#3A86FF</color>
+    <color name="secondary_blue_ghost">#1A3A86FF</color>
+
+    <!-- Success Green -->
+    <color name="accent">#06D6A0</color>
+    <color name="accent_dark">#059669</color>
+    <color name="accent_light">#6EE7B7</color>
+    <color name="owner_primary">#059669</color>
+
+    <!-- Danger Red -->
+    <color name="danger">#EF476F</color>
+    <color name="danger_ghost">#1AEF476F</color>
+
+    <!-- Warning Orange -->
+    <color name="warning">#FFD166</color>
+    <color name="warning_ghost">#1AFFD166</color>
+
+    <!-- Surfaces -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="glass_card_bg">#E6FFFFFF</color>
+    <color name="divider">#E2E8F0</color>
+
+    <!-- Status Colors -->
+    <color name="status_paid">#06D6A0</color>
+    <color name="status_paid_bg">#D1FAF0</color>
+    <color name="status_pending">#FFD166</color>
+    <color name="status_pending_bg">#FFF8E1</color>
+    <color name="status_overdue">#EF476F</color>
+    <color name="status_overdue_bg">#FFE4EC</color>
+    <color name="status_vacant">#06D6A0</color>
+    <color name="status_vacant_bg">#D1FAF0</color>
+    <color name="status_occupied">#EF476F</color>
+    <color name="status_occupied_bg">#FFE4EC</color>
+    <color name="status_notice">#FFD166</color>
+    <color name="status_notice_bg">#FFF8E1</color>
+
+    <!-- WhatsApp -->
+    <color name="whatsapp_green">#25D366</color>
+    <color name="whatsapp_dark">#128C7E</color>
+
+    <!-- Text -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_accent">#FFFFFF</color>
+
+    <!-- Gradient -->
+    <color name="gradient_start">#1E1B4B</color>
+    <color name="gradient_mid">#4C1D95</color>
+    <color name="gradient_end">#8338EC</color>
+
+    <!-- Hero Card -->
+    <color name="hero_bg">#047857</color>
+
+    <!-- Dashboard Cards -->
+    <color name="card_income">#059669</color>
+    <color name="card_expense">#EF476F</color>
+    <color name="card_occupancy">#8338EC</color>
+    <color name="card_notices">#FFD166</color>
+
+    <!-- Gender badges -->
+    <color name="gender_girls">#3A86FF</color>
+    <color name="gender_boys">#06D6A0</color>
+
+    <!-- Misc -->
+    <color name="ripple_light">#208338EC</color>
+    <color name="ripple_dark">#208338EC</color>
+    <color name="shadow">#10000000</color>
+    <color name="overlay">#80000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="unread_accent">#8338EC</color>
+</resources>
